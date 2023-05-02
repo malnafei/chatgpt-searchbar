@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Search Extension",
+    "version": "1.0",
+    "description": "Adds a search input to filter chat items.",
+    "author": "Mahmoud Al Nafei",
+    "homepage_url": "https://developers.google.com/community/experts/directory/profile/profile-mahmoud-alnafei",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "48": "icon48.png"
+      }
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://chat.openai.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "icons": {
+      "48": "icon48.png"
+    }
+  }
+  
