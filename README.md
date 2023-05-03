@@ -14,7 +14,7 @@ As much as we all love ChatGPT, searching for a specific conversation in the int
 
 To download and install the ChatGPT Searchbar extension, follow these steps:
 
-1. Download the extension source code from the GitHub repository (https://github.com/magic-coding/chatgpt-searchbar). You can either clone the repository using Git or download it as a ZIP file and extract it to a folder.
+1. Download the extension source code from the GitHub repository (https://github.com/malnafei/chatgpt-searchbar). You can either clone the repository using Git or download it as a ZIP file and extract it to a folder.
 
 2. Open the Extension Management page in Chrome by going to `chrome://extensions/`. Alternatively, click the Chrome menu (the three vertical dots in the top-right corner), then More Tools > Extensions.
 
